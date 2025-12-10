@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: money-converter
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/money_converter_db'
+    username: 'postgres'
+    password: 'cityzens'
+  jpa:
+    hibernate:
+      ddl-auto: update
